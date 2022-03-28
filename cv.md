@@ -1,6 +1,5 @@
 # Achkasova Zoia
 
-===
 
 ### Contact information:
 * Email: zan130208@ya.ru
@@ -16,7 +15,6 @@ I can work independently and in a team, I am hardworking, persistent, attentive 
 - React (basics);
 - Gulp, Webpack;
 - Figma, Photoshop, AutoCad;
-- English (intermediate)
 
 ### Code example:
 *Task: Write a function, that accepts an array of objects and one of the object’s key. It should return a new array of values according to the passed key.*
@@ -28,6 +26,8 @@ const getArrOfKeys = (actors, key) => {
   let act = actors.map(item => item[key]);
   return act;
 }
+console.log(getArrOfKeys(actors, 'name'));  //  ['Tomy', 'Lee']
+console.log(getArrOfKeys(actors, 'age'));  //  [36, 28]
 ```
 
 ### Education and courses:
@@ -36,17 +36,18 @@ const getArrOfKeys = (actors, key) => {
 - HTML academy, course “HTML and CSS. Adaptive layout and automation”, Jan. 21;
 - ITMO University, course "Web programming", Dec. 20;
 - St. Petersburg University, course "Website design", Nov. 20;
+
 **University:**
 - St. Petersburg Institute of Cultural Programs, "Space design", 2011.
 
 ### Projects:
-[Js_Snake_game](https://zojaac.github.io/snake/)
-[Js&bootstrap_project](https://zojaac.github.io/newspaper/)
-[Html&scss&adaptive_project](https://zojaac.github.io/1660491-sedona-21/index.html)
-[Html&scss&flex_grid_project](https://zojaac.github.io/doggy/)
-[Html&scss&adaptive&flex_project](https://zojaac.github.io/veles/)
-[Html&js_project](https://zojaac.github.io/menu/)
+- Snake-game (JS) [Js_Snake_game](https://zojaac.github.io/snake/)
+- JS & Bootstrap (adaptive) [Js&bootstrap_prject](https://zojaac.github.io/newspaper/)
+- Html (adaptive, stretching, webp-img) [Html&adaptive_project](https://zojaac.github.io/1660491-sedona-21/index.html)
+- Html & scss (flex & grid) [Html&scss&flex_grid_project](https://zojaac.github.io/doggy/)
+- Html & scss (adaptive & flex) [Html&scss&adaptive&flex_project](https://zojaac.github.io/veles/)
+- Html & js (adaptive) [Html&js_project](https://zojaac.github.io/menu/)
 
 ### Languages:
-English (intermediate);
-Dutch (pre-intermediate)
+- English (intermediate);
+- Dutch (pre-intermediate)
